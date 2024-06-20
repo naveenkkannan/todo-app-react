@@ -16,10 +16,10 @@ function App() {
     if (storedTodos && Array.isArray(storedTodos)) {
       setTodos(storedTodos);
     }
-  }, []); // Empty dependency array to run only once, on component mount
+  }, []); 
 
   useEffect(() => {
-    // Save todos to local storage whenever they change, except when todos are cleared
+  
     if (todos.length > 0) {
       localStorage.setItem('todos', JSON.stringify(todos));
     }
