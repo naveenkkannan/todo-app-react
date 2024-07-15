@@ -42,13 +42,13 @@ function TaskContainer({todo , index , delTodo}) {
               </svg>
             </span>
           </label>
-          <button
+{/*           <button
             type="button"
             className="text-white font-small rounded-lg text-sm px-2 py-1 dark:bg-black"
             onClick={() => delTodo(index) }
           >
             Delete
-          </button>
+          </button> */}
         </div>
       </div>
 
